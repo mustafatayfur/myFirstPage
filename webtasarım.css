@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+header h1{
+    font-size: 2.5 rem;
+}
+
+ul{
+    display: flex;
+}
+header ul li{
+    padding: 10px;
+    margin-right: 15px;
+    list-style-type:none;
+    font-size: larger;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    opacity: 0.6;
+}
+
+
+header ul li:hover{
+    opacity: 1;
+    background-color: white;
+    color: black;
+    font-size:x-large ;
+}
+
+main{
+    display: flex;
+  }
+
+main div{
+    margin: 0 20px;
+}
+
+#yazı{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
+h2{
+    font-size: x-large;
+    font-weight: bolder;
+}
+#parag{
+    text-align: justify;
+    max-width: 80%;
+    
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: gray;
+    padding: 30px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li{
+
+    padding: 5px;
+    margin-right: 2px;
+    list-style-type:none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer p{
+    margin-top: 10px;
+}
+span a{
+    color: white;
+}
+#github:hover{
+    font-size: 1.2rem;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 15px;
+    color: blue;
+    padding: 5px;
+}
